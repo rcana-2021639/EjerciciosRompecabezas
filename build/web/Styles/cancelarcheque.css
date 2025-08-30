@@ -1,0 +1,43 @@
+.icon-btn-container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+.icon-btn {
+  font-size: 2.4rem;
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  color: #ffffff;
+  border: 5px solid #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon-btn-red {
+  background-color: #f73a45;
+  box-shadow: 0px 0px 5px #f73a45;
+}
+
+.icon-btn-green {
+  background-color: #3eac21;
+  box-shadow: 0px 0px 5px #3eac21;
+}
+
+.icon-btn-green svg,
+.icon-btn-red svg {
+  width: 35px;
+  height: 35px;
+}
